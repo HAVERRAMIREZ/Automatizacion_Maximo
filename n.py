@@ -44,16 +44,16 @@ class OracleDBConnection:
 
 
 # Parámetros de conexión a la base de datos
-username = 'boe_desarollo'
-password = 'Colombia_2023'
-host = '10.67.51.142'
-port = 1521
-service_name = 'REPMAXIMO'
+username = ''
+password = ''
+host = ''
+port = 
+service_name = ''
 dsn = f"{host}:{port}/{service_name}"
 
 # Configuración de Telegram
-TELEGRAM_BOT_TOKEN = '7090490012:AAG_524Xc8DKGiz7RL_b8Yl89pN_EjL9FbI'
-TELEGRAM_CHAT_ID = '-4117976059'
+TELEGRAM_BOT_TOKEN = ''
+TELEGRAM_CHAT_ID = ''
 
 def enviar_mensaje_telegram(mensaje):
     url = f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage'
